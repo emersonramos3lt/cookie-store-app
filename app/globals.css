@@ -1,0 +1,42 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --secondaryColor: #590322;
+  --beige: #F2D8E4;
+}
+
+@layer utilities {
+  .flexBetween {
+    @apply flex items-center justify-between
+  }
+
+  .btnStyle {
+    @apply bg-white border border-secondaryColor rounded-3xl p-[0.9rem] text-secondaryColor transition-colors hover:bg-secondaryColor hover:text-white shadow-btnBoxShadow
+  }
+}
+
+/* HEADER */
+.h1-header {
+  text-shadow: -8px 4px 0px var(--secondaryColor);
+}
+
+.p-header {
+  text-wrap: nowrap;
+  word-spacing: 2rem;
+}
+
+::-webkit-scrollbar {
+  width: 14px;
+}
+
+::-webkit-scrollbar-track {
+  background-color: var(--beige);
+}
+
+::-webkit-scrollbar-thumb {
+  background-color: var(--secondaryColor);
+  cursor: pointer;
+  border-radius: 10px;
+}
