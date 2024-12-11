@@ -8,5 +8,3 @@ This project is a fictional cookie shop website built with **Next.js**, showcasi
 
 # Screenshots
 ![Screenshot](./screenshot/img1.PNG)
-
-![Screenshot](./screenshot/img2.PNG)
