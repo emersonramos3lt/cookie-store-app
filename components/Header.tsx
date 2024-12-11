@@ -51,11 +51,11 @@ const Navbar = () => {
         <h1 className="h1-header text-white font-bold text-7xl text-center w-[1000px]">Crafting cookies with love, quality, and a touch of magic to brighten your day</h1>
       </div>
       <Image 
-          src="/header-bg.jpg"
+          src="/img-header.jpg"
           alt="Delicious cookies image"
-          width={1300}
-          height={1300}
-          className="img-header w-full h-[450px] rounded-3xl object-cover brightness-[0.9]"
+          width={2800}
+          height={2000}
+          className="img-header w-full h-[450px] rounded-3xl object-cover brightness-[0.8]"
         />
      </div>
 
