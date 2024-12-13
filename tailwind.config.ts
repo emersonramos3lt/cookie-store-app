@@ -10,11 +10,11 @@ export default {
     extend: {
       colors: {
         bgBeige: "#F7F7F9",
-        bgHeader: "#F2D8E4",
-        secondaryColor: "#590322",
+        bgHeader: "#D0DFF2",
+        secondaryColor: "#034AA6",
       },
       boxShadow: {
-        btnBoxShadow: "5px 5px 0px rgb(89, 3, 34)",
+        btnBoxShadow: "5px 5px 0px rgb(3, 74, 166)",
       } // O nome boxShadow: {} é obrigatorio
     },
   },
