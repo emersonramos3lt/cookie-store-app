@@ -11,7 +11,7 @@ const Navbar = () => {
 
         
           
-          <a href="/" className="gap-0 lg:gap-[.5rem] flex transition-colors hover:text-gray-300" title="Order now">
+          <a href="/" className="gap-0 lg:gap-[.5rem] flex" title="Order now">
           <ShoppingBag />
           <span className="hidden lg:block">Order now</span>
         </a>
@@ -59,8 +59,8 @@ const Navbar = () => {
         />
      </div>
 
-     <p className="p-header flex justify-center text-secondaryColor font-light mt-8 pb-8">
-     Delight  Bliss Crunch  Charm Harmony  Joy  Glow  Magic
+     <p className="p-header flex justify-center text-secondaryColor font-light mt-8 pb-8 gap-8">
+     Delight <Image src='/icon-cookie.svg' alt="Cookie icon" width={18} height={18}/>  Bliss <Image src='/icon-cookie.svg' alt="Cookie icon" width={18} height={18}/> Crunch <Image src='/icon-cookie.svg' alt="Cookie icon" width={18} height={18}/>  Charm <Image src='/icon-cookie.svg' alt="Cookie icon" width={18} height={18}/> Harmony <Image src='/icon-cookie.svg' alt="Cookie icon" width={18} height={18}/>  Joy <Image src='/icon-cookie.svg' alt="Cookie icon" width={18} height={18}/>  Glow <Image src='/icon-cookie.svg' alt="Cookie icon" width={18} height={18}/>  Magic
      </p>
     </header>
   )
