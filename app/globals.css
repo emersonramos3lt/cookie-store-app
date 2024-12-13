@@ -3,8 +3,8 @@
 @tailwind utilities;
 
 :root {
-  --secondaryColor: #590322;
-  --beige: #F2D8E4;
+  --secondaryColor: #034AA6;
+  --beige: #D0DFF2;
 }
 
 @layer utilities {
