@@ -59,7 +59,9 @@ const Navbar = () => {
         />
      </div>
 
-     <p className="p-header flex justify-center text-secondaryColor font-light mt-8 pb-8 gap-8">
+     <p className="p-header flex justify-center text-secondaryColor font-light mt-8 pb-8 gap-8 overflow-hidden">
+     Crunch <Image src='/icon-cookie.svg' alt="Cookie icon" width={18} height={18}/>
+     Glow <Image src='/icon-cookie.svg' alt="Cookie icon" width={18} height={18}/>
      Delight <Image src='/icon-cookie.svg' alt="Cookie icon" width={18} height={18}/>  Bliss <Image src='/icon-cookie.svg' alt="Cookie icon" width={18} height={18}/> Crunch <Image src='/icon-cookie.svg' alt="Cookie icon" width={18} height={18}/>  Charm <Image src='/icon-cookie.svg' alt="Cookie icon" width={18} height={18}/> Harmony <Image src='/icon-cookie.svg' alt="Cookie icon" width={18} height={18}/>  Joy <Image src='/icon-cookie.svg' alt="Cookie icon" width={18} height={18}/>  Glow <Image src='/icon-cookie.svg' alt="Cookie icon" width={18} height={18}/>  Magic
      </p>
     </header>
