@@ -55,7 +55,7 @@ const Navbar = () => {
           alt="Delicious cookies image"
           width={2800}
           height={2000}
-          className="img-header w-full h-[450px] rounded-3xl object-cover brightness-[0.8]"
+          className="img-header w-full h-[450px] rounded-3xl object-cover brightness-[0.9]"
         />
      </div>
 
