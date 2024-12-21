@@ -1,17 +1,16 @@
 import React from 'react'
 import Button from './Button'
-import { ChefHat, Cookie, Heart } from 'lucide-react'
 import Image from 'next/image'
 
 const ServingSection = () => {
   return (
-    <section className='section max-w-[1300px] m-auto mt-[5rem]'>
+    <section className='section max-w-[1300px] m-auto lg:mt-[7rem] mt-[3rem]'>
       <h1 className='h1-section text-5xl font-bold text-secondaryColor flex justify-center text-center'>
-        <Heart className='lg:mr-2 lg:block hidden text-red-500'/> Currently serving <Heart className='lg:ml-2 lg:block hidden text-red-500'/>
+         Currently serving 
       </h1>
 
-      <div className='container-flex grid grid-cols-3 justify-center mt-[5rem] gap-8'>
-        <div className='flex items-center flex-col'>
+      <div className='container-flex grid grid-cols-3 justify-center mt-[2rem] gap-8'>
+        <div className='flex items-center flex-col mt-8'>
           <Image 
           src='/offer-img1.jpg'
           alt='Cookies'
@@ -28,7 +27,7 @@ const ServingSection = () => {
         />
         </div>
 
-        <div className='flex items-center flex-col'>
+        <div className='flex items-center flex-col mt-8'>
           <Image 
           src='/offer-img2.jpg'
           alt='Cookies'
@@ -45,7 +44,7 @@ const ServingSection = () => {
         />
         </div>
 
-        <div className='flex items-center flex-col'>
+        <div className='flex items-center flex-col mt-8'>
           <Image 
           src='/offer-img3.jpg'
           alt='Cookies'
