@@ -13,18 +13,24 @@
   }
 
   .btnStyle {
-    @apply bg-white border border-secondaryColor rounded-3xl p-[0.9rem] text-secondaryColor transition-colors hover:bg-secondaryColor hover:text-white shadow-btnBoxShadow
+    @apply bg-white border border-secondaryColor rounded-3xl p-[0.7rem] pr-[1rem] pl-[1rem] text-secondaryColor transition-colors hover:bg-secondaryColor hover:text-white shadow-btnBoxShadow
   }
 }
 
 /* HEADER */
 .h1-header {
-  text-shadow: -8px 4px 0px var(--secondaryColor);
+  text-shadow: -9px 2px 0px var(--secondaryColor);
 }
 
 .p-header {
   text-wrap: nowrap;
   word-spacing: 2rem;
+}
+
+.bg-header {
+  background: url('/img-header.jpg');
+  background-position: center center;
+  background-size: cover;
 }
 
 ::-webkit-scrollbar {
