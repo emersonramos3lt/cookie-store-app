@@ -1,6 +1,4 @@
-import { ShoppingBag } from "lucide-react"
 import Image from "next/image"
-
 
 const Navbar = () => {
   return (
@@ -12,7 +10,7 @@ const Navbar = () => {
         
           
           <a href="/" className="gap-0 lg:gap-[.5rem] flex" title="Order now">
-          <ShoppingBag />
+          <Image src='/bag.svg' alt="Bag" width={30} height={30}/>
           <span className="hidden lg:block">Order now</span>
         </a>
         
@@ -46,18 +44,11 @@ const Navbar = () => {
         </div>
       </nav>
 
-     <div className="flex justify-center items-center max-w-[1300px] m-auto mt-8">
-      <div  className="absolute flex justify-center items-center w-full z-10">
-        <h1 className="h1-header text-white font-bold text-7xl text-center w-[1000px]">Crafting cookies with love, quality, and a touch of magic to brighten your day</h1>
+        <div className="max-w-[90%] lg:p-3 lg:max-w-[1300px] m-auto mt-[1rem] rounded-3xl bg-header h-[400px]">
+        <div  className="flex items-center justify-center h-full w-full">
+          <h1 className="h1-header text-white font-bold text-[2rem] lg:text-7xl text-center w-[1000px]">Crafting cookies with love, quality, and a touch of magic to brighten your day</h1>
+        </div>
       </div>
-      <Image 
-          src="/img-header.jpg"
-          alt="Delicious cookies image"
-          width={2800}
-          height={2000}
-          className="img-header w-full h-[450px] rounded-3xl object-cover brightness-[0.9]"
-        />
-     </div>
 
      <p className="p-header flex justify-center text-secondaryColor font-light mt-8 pb-8 gap-8 overflow-hidden">
      Crunch <Image src='/icon-cookie.svg' alt="Cookie icon" width={18} height={18}/>
