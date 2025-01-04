@@ -4,12 +4,12 @@ const Navbar = () => {
   return (
     <header className="bg-bgHeader pt-2">
 
-      <nav className="nav flexBetween bg-secondaryColor text-white mt-4 max-w-[1300px] m-auto p-[0.8rem] rounded-3xl pl-[2rem] pr-[2rem]">
+      <nav className="nav flexBetween bg-secondaryColor text-white mt-4 max-w-[1300px] m-auto p-[0.8rem] rounded-3xl pl-[1rem] pr-[1rem]">
 
 
         
           
-          <a href="/" className="gap-0 lg:gap-[.5rem] flex" title="Order now">
+          <a href="/" className="gap-0 lg:gap-[.5rem] flex items-center" title="Order now">
           <Image src='/bag.svg' alt="Bag" width={30} height={30}/>
           <span className="hidden lg:block">Order now</span>
         </a>
