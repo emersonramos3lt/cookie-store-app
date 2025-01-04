@@ -4,7 +4,7 @@ import Image from 'next/image'
 
 const ServingSection = () => {
   return (
-    <section className='section max-w-[1300px] m-auto lg:mt-[7rem] mt-[3rem]'>
+    <section className='section max-w-[85%] lg:max-w-[1300px] m-auto lg:mt-[7rem] mt-[3rem]'>
       <h1 className='h1-section text-5xl font-bold text-secondaryColor flex justify-center text-center'>
          Currently serving 
       </h1>
