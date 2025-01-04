@@ -4,7 +4,7 @@ import Image from 'next/image'
 
 const ServingSection = () => {
   return (
-    <section className='section max-w-[85%] lg:max-w-[1300px] m-auto lg:mt-[7rem] mt-[3rem]'>
+    <section className='section max-w-[1300px] m-auto lg:mt-[7rem] mt-[3rem]'>
       <h1 className='h1-section text-5xl font-bold text-secondaryColor flex justify-center text-center'>
          Currently serving 
       </h1>
@@ -17,7 +17,7 @@ const ServingSection = () => {
           width={1000}
           height={1000}
           aria-labelledby='offerImg1'
-          className='img-section rounded-3xl h-[350px] sm:h-[400px] object-cover lg:w-auto w-4/5'
+          className='img-section rounded-3xl h-[300px] sm:h-[400px] object-cover'
         />
         <h2 id='offerImg1'  className='text-secondaryColor font-bold text-center text-2xl mt-[1.5rem] mb-[1.5rem]'>Sweet Cookies</h2>
         <Button 
@@ -34,7 +34,7 @@ const ServingSection = () => {
           width={1000}
           height={1000}
           aria-labelledby='offerImg2'
-          className='img-section rounded-3xl h-[350px] sm:h-[400px] object-cover lg:w-auto w-4/5'
+          className='img-section rounded-3xl h-[300px] sm:h-[400px] object-cover'
         />
         <h2 id='offerImg2'  className='text-secondaryColor font-bold text-center text-2xl mt-[1.5rem] mb-[1.5rem]'>Chocolate Cookies</h2>
         <Button 
@@ -51,7 +51,7 @@ const ServingSection = () => {
           width={1000}
           height={1000}
           aria-labelledby='offerImg3'
-          className='img-section rounded-3xl h-[350px] sm:h-[400px] object-cover lg:w-auto w-4/5'
+          className='img-section rounded-3xl h-[300px] sm:h-[400px] object-cover'
         />
         <h2 id='offerImg3'  className='text-secondaryColor font-bold text-center text-2xl mt-[1.5rem] mb-[1.5rem]'>Cookies</h2>
         <Button 
