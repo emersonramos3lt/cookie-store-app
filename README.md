@@ -7,6 +7,7 @@ This project is a fictional cookie shop website built with **Next.js**, showcasi
 - **Next.js**
 - **Tailwind CSS**
 - **Responsive design**
+- **UI/UX Design**
 
 # 📷 Screenshots
 ![Screenshot](./screenshot/img1.PNG)
